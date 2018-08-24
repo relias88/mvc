@@ -26,7 +26,7 @@ namespace OGL.Models
 
         [Display(Name = "Data dodania:")]
         [DataType(DataType.Date]
-        [DisplayFormat(DataFormatString ="{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
+        [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
         public DateTime DataDodania { get; set; }
 
         public virtual ICollection<Ogloszenie_Kategoria> Ogloszenie_Kategoria { get; set; }
