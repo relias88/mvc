@@ -1,0 +1,1 @@
+Jeœli jest problem z poleceniem Update-Database nalezy upewniæ siê czy nie jesteœmy podmapowani na wirtualn¹ partycjê V. Dzia³a to tylko na partycji g³ównej: c:\
