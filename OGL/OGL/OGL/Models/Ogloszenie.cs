@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Web;
 
 namespace OGL.Models
 {
@@ -10,7 +8,7 @@ namespace OGL.Models
     {
         public Ogloszenie()
         {
-            this.Ogloszenie_kategoria = new HashSet<Ogloszenie_Kategoria>();
+            this.Ogloszenie_Kategoria = new HashSet<Ogloszenie_Kategoria>();
         }
 
         [Display(Name = "Id")]
@@ -25,7 +23,7 @@ namespace OGL.Models
         public string Tytul { get; set; }
 
         [Display(Name = "Data dodania:")]
-        [DataType(DataType.Date]
+        [DataType(DataType.Date)]
         [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
         public DateTime DataDodania { get; set; }
 

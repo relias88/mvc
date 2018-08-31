@@ -1,0 +1,53 @@
+[33mcommit 906e8bb2724661cc0d0230e82d2bffca934e17dc[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Eli <rafal.elias@outlook.com>
+Date:   Sun Aug 26 23:24:51 2018 +0200
+
+    stackdump
+
+[33mcommit 8ef97f175145fd34ff419c3470fa2233b0c94cfe[m
+Author: Eli <rafal.elias@outlook.com>
+Date:   Sun Aug 26 20:41:44 2018 +0200
+
+    Remove packages files
+
+[33mcommit b11afd3a6fa74df6731892b6a02f7b5a98084938[m
+Author: Eli <eli@example.com>
+Date:   Sat Aug 25 00:08:43 2018 +0200
+
+    Git ignore completed
+
+[33mcommit 4b71cc2b8181ab0edadbcb4b580df823583796b8[m
+Author: Eli <eli@example.com>
+Date:   Sat Aug 25 00:06:55 2018 +0200
+
+    Czyszczenie manualne .vs
+
+[33mcommit 16428dc7048be497850030eafb4c5f5add6054e6[m
+Author: Eli <eli@example.com>
+Date:   Fri Aug 24 23:54:05 2018 +0200
+
+    Próba gitignore
+
+[33mcommit 17978cb960d76350d272cdd08f519b5751ea91be[m
+Author: Eli <eli@example.com>
+Date:   Fri Aug 24 23:51:51 2018 +0200
+
+    Dodanie pliku gitignore
+
+[33mcommit 028840b9a831d0f584009930443f1483328c87cd[m
+Author: Eli <eli@example.com>
+Date:   Thu Aug 23 22:51:13 2018 +0200
+
+    Zmiana zawartości
+
+[33mcommit 0e787a3ebdb5730ad9b4a0341016e22245eb2a9f[m
+Author: Eli <eli@example.com>
+Date:   Thu Aug 23 22:49:26 2018 +0200
+
+    Dodanie zawartości
+
+[33mcommit 82d7a4eb7dc5c2ce9daac85f5602085fcbb180f4[m
+Author: Eli <eli@example.com>
+Date:   Thu Aug 23 22:44:01 2018 +0200
+
+    Plik powitalny na repo mvc
