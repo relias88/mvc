@@ -32,5 +32,6 @@ namespace Repozytorium.Models
         public string UzytkownikId { get; set; }
 
         public virtual Uzytkownik Uzytkownik { get; set; }
+        public string Nazwa { get; internal set; }
     }
 }
