@@ -1,13 +1,15 @@
 ﻿@model IEnumerable<Repozytorium.Models.Ogloszenie>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Tytul = "Lista ogloszen - metatytul do 60 znakow";
+    ViewBag.Opis = "Lista ogloszen - metaopis do 160 znakow";
+    ViewBag.SlowaKluczowe = " slowa, kluczowe";
 }
 
 <h2>Lista ogłoszeń</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    @Html.ActionLink("Dodaj nowe ogłoszenie", "Create", null, new {@class = "btn btn-primary" })
 </p>
 <table class="table">
     <tr>
@@ -47,9 +49,9 @@
             @Html.DisplayFor(modelItem => item.Nazwa)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
-            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+            @Html.ActionLink("Details", "Details", new { id=item.Id }, new { @class = "btn btn-warning" }) |
+            @Html.ActionLink("Edytuj", "Edit", new { id=item.Id }, new { @class = "btn btn-primary" }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Id }, new { @class = "btn btn-danger" })
         </td>
     </tr>
 }
